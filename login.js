@@ -55,7 +55,7 @@ app.post("/signup", async (req, res) => {
         res.json({
             msg: "Signup successful"
         });
-
+// new
     } catch (err) {
         console.log("Insert Error:", err);
 
